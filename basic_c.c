@@ -48,3 +48,40 @@ int main(){
 
   return 0 ;
 }
+
+//
+
+#include<stdio.h>
+
+float area_circle(int r){
+  float a = 3.142*r*r ;
+  return a ;
+}
+int main(){
+  int r ;
+  printf("Enter radius: ") ;
+  scanf("%d",&r) ;
+
+  float a = area_circle(r) ;
+  printf("%f",a) ;
+
+  return 0 ;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
