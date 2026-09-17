@@ -71,7 +71,21 @@ int main(){
 
 
 #include<stdio.h>
+
+int fact_num(int a){
+  int fact = 1;
+  for(int i=1;i<=a;i++){
+    fact = fact*i ;
+  }
+  return fact ;  
+}
 int main(){
+  int a ;
+  printf("Enter a num: ") ;
+  scanf("%d",&a) ;
+
+  int fact = fact_num(a) ;
+  printf("fatorial = %d",fact) ;
   
   return 0 ;
 }
